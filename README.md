@@ -1,13 +1,10 @@
 # Unsupervised Landmark Discovery via Consistency-Guided Bottleneck
 
 ## Requirements
-Linux
-
-Python 3.8 or further
-
-PyTorch 1.X with torchvision
-
-OpenCV (cv2)
+-Linux
+-Python 3.8 or later
+-PyTorch 1.8 with torchvision
+-OpenCV
 
 ## Data
 CelebA can be obtained from [here](http://www.robots.ox.ac.uk/~vgg/research/unsupervised_landmarks/resources/celeba.zip). 
@@ -28,6 +25,9 @@ python test.py -f Models_to_Test -e alfw -d AFLW --data_path <path to dataset>
 or
 python test.py -f Models_to_Test -e mafl -d MAFL --data_path <path to dataset>
 ```
-
+## Pretrained Models
+Pretrained models are provided here.
 
 ## Training
+To train our method use the corresponding command in training script.
+
