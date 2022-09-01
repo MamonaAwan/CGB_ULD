@@ -1,5 +1,4 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '3'
 import torch, numpy as np, math
 import argparse
 from torch.utils.data import DataLoader
