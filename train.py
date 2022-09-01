@@ -1,20 +1,12 @@
 import glob, os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = '1'
-os.environ["CUDA_LAUNCH_BLOCKING"] = '1'
-
 import torch, time, numpy as np
 from torch.utils.data import DataLoader
 from shutil import copy2
 
-torch.set_num_threads(1)
-os.environ["OMP_NUM_THREADS"] = "1"  #  Set up OpenMP Count the number of threads in the library 
-os.environ["MKL_NUM_THREADS"] = "1"  #  Set up MKL-DNN CPU Number of threads in acceleration Library .
-
 from model_fan.model import model as mymodel
 from database.databases import Full_DB
-from utils_fan.utils import *
-from utils_fan.train_options import Options
+from utils_fan.utils import *from utils_fan.train_options import Options
 from utils_fan.helper_functions import store_landmark_features
 from utils_gcn import create_logger
 from vegcn.gcn_main import gcn_main
