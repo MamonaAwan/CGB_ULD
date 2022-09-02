@@ -11,7 +11,6 @@ parser.add_argument('-f','--folder', default='', type=str, metavar='PATH', help=
 parser.add_argument('-d','--db', default='MAFL', type=str, metavar='PATH', help='db')
 parser.add_argument('-e', '--epoch', help='Epoch to test')
 parser.add_argument('-t','--tight', default=70, type=int, help='tight')
-parser.add_argument('-r', '--reg', default=0.01, type=float, help='Regularization factor')
 parser.add_argument('--data_path', default='', help='Path to the data')
 
 
@@ -24,7 +23,7 @@ def main():
     db = args.db  
     tight = args.tight
     data = extractdata(folder, epoch, db, tight, npoints=10, data_path=args.data_path)
-    reg_factor = args.reg
+    reg_factor = 0.01
     e = str(args.epoch)
     print('Doing epoch {}'.format(e))
     
