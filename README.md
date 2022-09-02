@@ -13,7 +13,7 @@ place the file 'list_landmarks_align_celeba.txt' in the same folder.
 
 - AFLW can be found [here](http://www.robots.ox.ac.uk/~vgg/research/unsupervised_landmarks/resources/aflw_release-2.zip).
 - 300W-LP dataset used for training can be found [here](https://drive.google.com/file/d/0B7OEHD3T4eCkVGs0TkhUWFN6N1k/view?usp=sharing).
-LS3D used for testing can be downloaded from [here](https://www.adrianbulat.com/face-alignment).
+LS3D used for testing the corresponding, can be downloaded from [here](https://www.adrianbulat.com/face-alignment).
 - Catshead Dataset can be found [here](https://www.kaggle.com/datasets/crawford/cat-dataset).
 - Shoes Dataset can be downloaded from [here](https://vision.cs.utexas.edu/projects/finegrained/utzap50k/). Numerical results for shoes are not possible since there are no ground truth annotations.
 
