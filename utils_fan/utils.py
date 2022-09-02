@@ -1,6 +1,6 @@
 import torch, numpy as np, cv2, collections
 
-################################### - classes 
+
 
 class Ada_HeatMap(torch.nn.Module):
     """Defines a differentiable Gaussian 'Adaptive' heatmap using cosine similarity"""
