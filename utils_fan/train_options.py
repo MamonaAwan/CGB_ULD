@@ -4,7 +4,7 @@ import os
 class Options():
 
     def __init__(self):
-        self._parser = argparse.ArgumentParser(description='Unsupervised Landmark Discovery through unsupervised adaptation (NeurIPS19)')
+        self._parser = argparse.ArgumentParser(description='Consistency Guided Bottleneck for Unsupervised Landmark Detection')
         self.initialize()
         self.args = self.parse_args()
         self.write_args()
@@ -31,7 +31,7 @@ class Options():
         self._parser.add_argument('-g', '--gamma', default=0.1, type=float, help='Gamma for scheduler')
         self._parser.add_argument('-a', '--angle', default=15.0, type=float, help='rotation angle')
         self._parser.add_argument('--flip', default=False, help='Use flip or not')
-        self._parser.add_argument('--cuda', default= '3,', type=str, help='cuda')
+        self._parser.add_argument('--cuda', default= '0,', type=str, help='cuda')
         self._parser.add_argument('--ada_rec', default= True, type = bool, help='adaptive reconstruction')
 
 
