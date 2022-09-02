@@ -11,13 +11,6 @@ from utils_fan.helper_functions import store_landmark_features
 from utils_gcn import create_logger
 from vegcn.gcn_main import gcn_main
 
-class loss_to_use():
-    '''
-    set loss to use.
-    '''
-    def __init__(self, args):
-        self.ada_rec = args.ada_rec
-        
 
 def main():
     # parse args
@@ -187,6 +180,18 @@ def train_epoch(dataloader, model, myoptimizers, epoch, bSize, loss_cf, initial)
     lo_repr_fts= torch.cat(lo_repr_fts, dim= 0)
     
     return lo_repr_fts
+
+
+
+class loss_to_use():
+    '''
+    set loss to use.
+    '''
+    def __init__(self, args):
+        self.ada_rec = args.ada_rec
+        
+
+
 
 
 
