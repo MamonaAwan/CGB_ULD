@@ -1,11 +1,11 @@
 # Unsupervised Landmark Discovery via Consistency-Guided Bottleneck
 
-## Install Requirements
+## Requirements
 - Python 3.8 or later
 - PyTorch 1.8 with torchvision
 - OpenCV
 
-## Data
+## Datasets
 - CelebA can be obtained from [here](http://www.robots.ox.ac.uk/~vgg/research/unsupervised_landmarks/resources/celeba.zip). 
 MAFL (training & test) is included.
 Bounding box obtained to crop the images is computed from the landmarks provided in the CelebA dataset.
@@ -17,7 +17,7 @@ LS3D used for testing can be downloaded from [here](https://www.adrianbulat.com/
 - Catshead Dataset can be found [here](https://www.kaggle.com/datasets/crawford/cat-dataset).
 - Shoes Dataset can be downloaded from [here](https://vision.cs.utexas.edu/projects/finegrained/utzap50k/). Numerical results for shoes are not possible since there are no ground truth annotations.
 
-## Testing
+## Testing Pretrained Models
 To test our the pretrained models, download from the links below. Create and place them in the folder ``pretrained_models_to_test"". Run the testing script 'test_pretrained_model_script.sh'.
 
 ## Pretrained Models
