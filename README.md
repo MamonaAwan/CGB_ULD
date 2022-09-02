@@ -9,7 +9,7 @@
 - CelebA can be obtained from [here](http://www.robots.ox.ac.uk/~vgg/research/unsupervised_landmarks/resources/celeba.zip). 
 MAFL (training & test) is included.
 Bounding box obtained to crop the images is computed from the landmarks provided in the CelebA dataset.
-place the file 'list_landmarks_align_celeba.txt' in the same folder.
+place the all files in the same folder.
 
 - AFLW can be found [here](http://www.robots.ox.ac.uk/~vgg/research/unsupervised_landmarks/resources/aflw_release-2.zip).
 - 300W-LP dataset used for training can be found [here](https://drive.google.com/file/d/0B7OEHD3T4eCkVGs0TkhUWFN6N1k/view?usp=sharing).
