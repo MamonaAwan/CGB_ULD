@@ -18,7 +18,7 @@ LS3D used for testing can be downloaded from [here](https://www.adrianbulat.com/
 - Shoes Dataset can be downloaded from [here](https://vision.cs.utexas.edu/projects/finegrained/utzap50k/). Numerical results for shoes are not possible since there are no ground truth annotations.
 
 ## Testing
-To test our the pretrained models, download from the links below and place them in the folder ``pretrained_models_to_test"", run the testing script 'test_pretrained_model_script.sh'.
+To test our the pretrained models, download from the links below. Create and place them in the folder ``pretrained_models_to_test"". Run the testing script 'test_pretrained_model_script.sh'.
 
 ## Pretrained Models
 Pretrained models are provided [here](https://drive.google.com/drive/folders/1JJrYkzH4xYh8MiylbXE4zqC7Sc0qVEjV?usp=sharing).
