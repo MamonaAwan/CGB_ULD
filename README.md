@@ -21,7 +21,7 @@ LS3D used for testing can be downloaded from [here](https://www.adrianbulat.com/
 To test our the pretrained models, download from the links below and place them in the folder ``pretrained_models_to_test"", run the testing script 'test_pretrained_model_script.sh'.
 
 ## Pretrained Models
-Pretrained models are provided here.
+Pretrained models are provided [here](https://drive.google.com/drive/folders/1JJrYkzH4xYh8MiylbXE4zqC7Sc0qVEjV?usp=sharing).
 
 ## Training / Testing
 To train/test our method use the corresponding command in the provided training/testing script.
